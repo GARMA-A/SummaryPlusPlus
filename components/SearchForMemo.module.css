@@ -1,0 +1,248 @@
+.container
+{
+       width: 100vw;
+       display: flex;
+       justify-content: center;
+       margin: 1rem;
+       
+
+}
+.mainContnet
+{
+       width: 70vw;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       background-image: linear-gradient(to right ,rgb(12, 16, 42) , #081428);
+       padding: 2rem;
+       border-radius: 1rem;
+       font-family: monospace;
+       flex-wrap: wrap;
+}
+.mainContnet h3
+{
+       margin-bottom: 0;
+}
+
+.container input
+{
+       width: 30rem;
+       height: 3rem;
+       border-radius: 0.2rem;
+       border: none;
+       outline: none;
+       font-size: 2rem;
+       font-family:monospace;
+       color: rgb(177, 184, 240);
+       background-color: rgb(38, 58, 77);
+       text-align: center;
+       margin: 1rem;
+}
+.btn
+{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 1rem;
+       width: 12rem;
+       height: 3rem;
+       font-size: 1.5rem;
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+       animation-name:hoverOnSubmitBtn ;
+       animation-duration: 6s;
+       animation-timing-function: linear;
+       animation-fill-mode: forwards;
+       animation-iteration-count: ease-in-out;
+       animation-iteration-count: infinite;
+       border: none;
+       outline: none;
+       border-radius: 1rem;
+       box-shadow: 1rem 2rem 3rem #081428;
+       transition: all 0.2s;
+       font-weight: 700;
+       margin: 1rem;
+}
+.btn:hover
+{
+       transform: scale(1.07);
+
+}
+.btn:active
+{
+       transform: scale(1);
+}
+@keyframes hoverOnSubmitBtn {
+       0% {
+              background-image: linear-gradient(to right, #cc8e8e, #b32a2a);
+       }
+
+       2.5% {
+              background-image: linear-gradient(to right, #cc9090, #b53232);
+       }
+
+       5% {
+              background-image: linear-gradient(to right, #cc9292, #b63a3a);
+       }
+
+       7.5% {
+              background-image: linear-gradient(to right, #cc9494, #b74242);
+       }
+
+       10% {
+              background-image: linear-gradient(to right, #cc9696, #b84a4a);
+       }
+
+       12.5% {
+              background-image: linear-gradient(to right, #cc9898, #b95252);
+       }
+
+       15% {
+              background-image: linear-gradient(to right, #cc9a9a, #ba5a5a);
+       }
+
+       17.5% {
+              background-image: linear-gradient(to right, #cc9c9c, #bb6262);
+       }
+
+       20% {
+              background-image: linear-gradient(to right, #cc9e9e, #bc6a6a);
+       }
+
+       22.5% {
+              background-image: linear-gradient(to right, #cca0a0, #bd7272);
+       }
+
+       25% {
+              background-image: linear-gradient(to right, #cca2a2, #be7a7a);
+       }
+
+       27.5% {
+              background-image: linear-gradient(to right, #cca4a4, #bf8282);
+       }
+
+       30% {
+              background-image: linear-gradient(to right, #cca6a6, #c08a8a);
+       }
+
+       32.5% {
+              background-image: linear-gradient(to right, #cca8a8, #c19292);
+       }
+
+       35% {
+              background-image: linear-gradient(to right, #ccaaaa, #c29a9a);
+       }
+
+       37.5% {
+              background-image: linear-gradient(to right, #ccacac, #c3a2a2);
+       }
+
+       40% {
+              background-image: linear-gradient(to right, #ccaead, #c4aaa9);
+       }
+
+       42.5% {
+              background-image: linear-gradient(to right, #ccb0b0, #c5b2b2);
+       }
+
+       45% {
+              background-image: linear-gradient(to right, #ca9696, #bc8c8c);
+       }
+
+       47.5% {
+              background-image: linear-gradient(to right, #c08d8d, #c3a2a2);
+       }
+
+       50% {
+              background-image: linear-gradient(to right, #cd9a9a, #c69a9a);
+       }
+
+       52.5% {
+              background-image: linear-gradient(to right, #c78888, #d3a1a1);
+       }
+
+       55% {
+              background-image: linear-gradient(to right, #c38787, #d9bbbb);
+       }
+
+       57.5% {
+              background-image: linear-gradient(to right, #bf7c7c, #dfb6b6);
+       }
+
+       60% {
+              background-image: linear-gradient(to right, #bc757c, #eacccc);
+       }
+
+       62.5% {
+              background-image: linear-gradient(to right, #c07c7c, #d2cdcd);
+       }
+
+       65% {
+              background-image: linear-gradient(to right, #bf7b7b, #caa2a2);
+       }
+
+       67.5% {
+              background-image: linear-gradient(to right, #b87777, #c49d9d);
+       }
+
+       70% {
+              background-image: linear-gradient(to right, #bd7a7a, #ca9797);
+       }
+
+       72.5% {
+              background-image: linear-gradient(to right, #bd7474, #c29292);
+       }
+
+       75% {
+              background-image: linear-gradient(to right, #bc7373, #cca7a7);
+       }
+
+       77.5% {
+              background-image: linear-gradient(to right, #b26f6f, #cca4a4);
+       }
+
+       80% {
+              background-image: linear-gradient(to right, #be7e7e, #c79696);
+       }
+
+       82.5% {
+              background-image: linear-gradient(to right, #b57c7c, #d39393);
+       }
+
+       85% {
+              background-image: linear-gradient(to right, #c38787, #d48d8d);
+       }
+
+       87.5% {
+              background-image: linear-gradient(to right, #cb8383, #ce8383);
+       }
+
+       90% {
+              background-image: linear-gradient(to right, #c47979, #c28080);
+       }
+
+       92.5% {
+              background-image: linear-gradient(to right, #c37b7b, rgb(205, 134, 134));
+       }
+
+       95% {
+              background-image: linear-gradient(to right, #be6e6e, #cc7878);
+       }
+
+       97.5% {
+              background-image: linear-gradient(to right, #b47070, #c46a6a);
+       }
+
+       100% {
+              background-image: linear-gradient(to right, #b46d6d, #cf7b7b);
+       }
+}
+
+@media only screen and (max-width:500px) {
+       .container {
+                     justify-content: stretch;
+              }
+                            .container input {
+                                width: 100%;
+                            }
+       
+}

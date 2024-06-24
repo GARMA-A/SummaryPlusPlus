@@ -1,0 +1,70 @@
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+
+}
+
+html
+{
+  font-size: 62.5%;
+
+}
+body
+{
+  width: 100vw;
+  height: 100vh;
+background-image: linear-gradient(to left bottom, rgb(1, 14, 29), rgb(1, 13, 27), rgb(1, 11, 23), rgb(1, 11, 23), rgb(1, 13, 27), rgb(1, 15, 30),
+      rgb(2, 12, 23),
+      rgb(4, 15, 28),
+      rgb(1, 14, 28));
+      font-family: 'Times New Roman', Times, serif;
+      overflow-x: hidden;
+  
+     
+}
+h1
+{
+  font-size: 2rem;
+  font-family: sans-serif;
+  letter-spacing: 0.2rem;
+}
+strong
+{
+  font-weight: 700;
+}
+
+@media only screen and (max-width) {
+
+  h1,
+  .doted {
+    font-family: "Codystar";
+    font-size: 2rem;
+
+
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 2.4rem;
+  }
+}
+
+

@@ -1,0 +1,77 @@
+.nav
+{
+       width: 100vw;
+       height: 5rem;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background-color: #081f3967;
+       position: relative;
+       right: 4rem;
+       bottom: 2rem;
+       z-index: 10;
+    
+}
+
+.list
+{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       list-style: none;
+       
+       color: white;
+       font-size: 1.5rem;
+       margin-right: 3rem;
+       
+
+}
+.list li
+{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       font-family: 'Courier New', Courier, monospace;
+       padding: 1.5rem;
+       border-radius: 1rem;
+       transition: all 0.2s;
+       height: 3rem;
+        margin-right: 1rem;
+             
+
+}
+.list li:nth-child(1)
+{
+       width: 10rem;
+   
+}
+.list li:nth-child(2) {
+
+       width: 15rem;
+    
+}
+.list li:hover
+{
+  
+       background-color: rgba(17, 32, 65, 0.534);
+}
+.nav a:link,
+.nav a:visited {
+      
+       color: inherit;
+       text-decoration: none;
+       font-weight: 700;
+       letter-spacing: 0.2rem;
+}
+
+@media only screen and (max-width :500px)
+{
+      .nav
+      {
+       display: flex;
+       flex-direction: column;
+       height: 25vh;
+       justify-content: space-around;
+       align-items: center;
+      }
+}

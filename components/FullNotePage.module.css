@@ -1,0 +1,256 @@
+.all
+{
+       width: 100vw;
+       height: 100vh;
+       display: flex;
+       align-items: start;
+       justify-content: center;
+      
+}
+.container
+{
+       width: 70vw;
+       height: 70vh;
+       background-color: #13202eb8;
+       border: 0.2rem solid rgb(27, 41, 62);
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+       margin-right: 10rem;
+       overflow-y: scroll;
+   
+}
+.title {
+       margin-bottom: 1rem;
+       font-size: 2.5rem;
+       font-family: sans-serif;
+       margin-top: 1rem;
+       margin-left: 1rem;
+      color:#9b9fbd;
+
+}
+
+.content {
+       font-size: 2rem;
+       padding: 1rem;
+       font-family: monospace;
+       color: #9b9fbd;
+
+
+}
+
+
+.btn {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 1rem;
+       width: 14rem;
+       height: 3rem;
+       font-size: 1.5rem;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       animation-name: hoverOnSubmitBtn;
+       animation-duration: 6s;
+       animation-timing-function: linear;
+       animation-fill-mode: forwards;
+       animation-iteration-count: ease-in-out;
+       animation-iteration-count: infinite;
+       border: none;
+       outline: none;
+       border-radius: 1rem;
+       box-shadow: 1rem 2rem 3rem #081428;
+       transition: all 0.2s;
+       font-weight: 700;
+}
+
+.btn:hover {
+       transform: scale(1.07);
+
+}
+
+.btn:active {
+       transform: scale(1);
+}
+.container:hover {
+       animation-name: borderRotate;
+       animation-duration: 6s;
+       animation-iteration-count: infinite;
+       animation-fill-mode: forwards;
+       animation-timing-function: linear;
+}
+
+
+@keyframes borderRotate {
+       0% {
+              border-top: 0.2rem solid rgb(44, 114, 161);
+              border-bottom: 0.2rem solid rgb(44, 114, 161);
+              border-right: 0.2rem solid rgb(22, 28, 77);
+              ;
+              border-left: 0.2rem solid rgb(22, 28, 77);
+              ;
+
+       }
+
+       15% {
+              border-top: 0.2rem solid rgb(22, 28, 77);
+              ;
+              border-bottom: 0.2rem solid rgb(44, 114, 161);
+              border-right: 0.2rem solid rgb(22, 28, 77);
+              ;
+              border-left: 0.2rem solid rgb(22, 28, 77);
+              ;
+
+
+       }
+
+       30% {
+              border-top: 0.2rem solid rgb(22, 28, 77);
+              ;
+              border-bottom: 0.2rem solid rgb(44, 114, 161);
+              border-right: 0.2rem solid rgb(44, 114, 161);
+              border-left: 0.2rem solid rgb(22, 28, 77);
+              ;
+
+
+       }
+
+       45% {
+              border-top: 0.2rem solid rgb(22, 28, 77);
+              ;
+              border-bottom: 0.2rem solid rgb(22, 28, 77);
+              ;
+              border-right: 0.2rem solid rgb(44, 114, 161);
+              border-left: 0.2rem solid rgb(22, 28, 77);
+              ;
+
+       }
+
+       60% {
+              border-top: 0.2rem solid rgb(22, 28, 77);
+              border-bottom: 0.2rem solid rgb(22, 28, 77);
+              border-right: 0.2rem solid rgb(44, 114, 161);
+              border-left: 0.2rem solid rgb(44, 114, 161);
+
+       }
+
+       75% {
+              border-top: 0.2rem solid rgb(22, 28, 77);
+              border-bottom: 0.2rem solid rgb(22, 28, 77);
+              border-right: 0.2rem solid rgb(22, 28, 77);
+              border-left: 0.2rem solid rgb(44, 114, 161);
+
+       }
+
+       100% {
+              border-top: 0.2rem solid rgb(44, 114, 161);
+              border-bottom: 0.2rem solid rgb(44, 114, 161);
+              border-right: 0.2rem solid rgb(22, 28, 77);
+              border-left: 0.2rem solid rgb(22, 28, 77);
+
+       }
+
+}
+
+@keyframes hoverOnSubmitBtn {
+       0% {
+              background-image: linear-gradient(to right, #8ec8cc, #2a5fb3);
+
+       }
+
+       5% {
+              background-image: linear-gradient(to right, #8ea7cc, #2a4fb3);
+
+       }
+
+       10% {
+              background-image: linear-gradient(to right, #8ea0cc, #2a48b3);
+       }
+
+       15% {
+
+              background-image: linear-gradient(to right, #8e9dcc, #2a3fb3);
+       }
+
+       20% {
+              background-image: linear-gradient(to right, #8e97cc, #2a3ab3);
+       }
+
+       25% {
+              background-image: linear-gradient(to right, #928ecc, #2a2cb3);
+       }
+
+       30% {
+              background-image: linear-gradient(to right, #928ecc, #382ab3);
+       }
+
+       35% {
+              background-image: linear-gradient(to right, #928ecc, #382ab3);
+       }
+
+       40% {
+              background-image: linear-gradient(to right, #928ecc, #382ab3);
+       }
+
+       45% {
+              background-image: linear-gradient(to right, #928ecc, #382ab3);
+       }
+
+       50% {
+              background-image: linear-gradient(to right, #978ecc, #352ab3);
+       }
+
+       55% {
+              background-image: linear-gradient(to right, #908ecc, #2a2ab3);
+       }
+
+       60% {
+              background-image: linear-gradient(to right, #8e95cc, #2a35b3);
+       }
+
+       65% {
+              background-image: linear-gradient(to right, #8e9ccc, #2a4ab3);
+       }
+
+       70% {
+              background-image: linear-gradient(to right, #8ea4cc, #2a63b3);
+       }
+
+       75% {
+              background-image: linear-gradient(to right, #8eabcc, #2a73b3);
+       }
+
+       80% {
+              background-image: linear-gradient(to right, #8eb7cc, #2a73b3);
+       }
+
+       85% {
+              background-image: linear-gradient(to right, #8eb7cc, #2a65b3);
+       }
+
+       90% {
+              background-image: linear-gradient(to right, #8ec8cc, #2a5fb3);
+       }
+
+       95% {
+              background-image: linear-gradient(to right, #8ec8cc, #2a5fb3);
+       }
+
+       100% {
+              background-image: linear-gradient(to right, #8ec8cc, #2a5fb3);
+
+       }
+}
+
+@media only screen and (max-width:500px)
+{
+       .all {
+                     width: 100vw;
+                     height: 100vh;
+                     display: flex;
+                     align-items: start;
+                     justify-content: stretch;
+              }
+              .container{margin-left: 3rem;}
+
+}

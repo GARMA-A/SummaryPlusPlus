@@ -1,0 +1,22 @@
+.loogoo {
+
+       display: flex;
+       color: white;
+       align-items: center;
+       margin: 1.7rem;
+       font-size: 2rem;
+}
+.loogoo img
+{
+       height: 4rem;
+       margin: 0;
+       width: 4rem;
+}
+
+.loogoo h1 {
+       margin-left: 0.5rem;
+}
+link
+{
+       text-decoration: none;
+}

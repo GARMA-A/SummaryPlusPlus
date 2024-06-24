@@ -1,0 +1,14 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
+
+function Error() {
+  return (
+    <p className="error">
+      <span>💥</span> There was an error fecthing data.
+    </p>
+  );
+}
+
+export default Error;
